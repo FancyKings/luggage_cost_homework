@@ -1,6 +1,6 @@
 # luggagecost
 
-Air baggage charges for software engineering operations
+Air baggage charges project is a software engineering course assignment of SDUST
 
 ## Getting Started
 

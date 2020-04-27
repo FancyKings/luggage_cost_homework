@@ -26,8 +26,7 @@ class MyApp extends StatelessWidget {
 }
 
 class CalculatorShow extends StatelessWidget {
-  final uri =
-      "https://ae01.alicdn.com/kf/H9579745812714ef2ac9a947f8a8893f4t.jpg";
+  final uri = "./static/back-img.jpg";
   double weight = 0.0;
   bool isTopSeat = false;
   bool isNotChinese = false;
@@ -52,7 +51,7 @@ class CalculatorShow extends StatelessWidget {
                     Container(
                       decoration: BoxDecoration(
                         image: DecorationImage(
-                          image: NetworkImage(this.uri),
+                          image: ExactAssetImage("images/back-img.jpg"),
                           fit: BoxFit.cover,
                           colorFilter: ColorFilter.mode(
                             Colors.black54,
